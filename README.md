@@ -3,8 +3,6 @@
 
 This repository contains the code, models, and a demo for an AI-driven system designed to automate code completion, test generation, and debugging for UI-based programming languages like Flutter (Dart) and Kotlin.
 
-## **Repository Contents**
-
 ### **1. `Model_Training.ipynb`**
 This Jupyter Notebook contains a basic model trained on a subset of **140k records** from the collected dataset. The model is fine-tuned on **CodeT5-small** for code autocompletion. 
 - The notebook demonstrates **data processing, tokenization, and model fine-tuning** for generating UI-related code snippets.
@@ -20,10 +18,10 @@ A FastAPI-based backend that serves the fine-tuned model via a REST API.
 - Accepts input code and returns predicted completions.
 - Supports **batch processing** for improved performance.
 
-### **4. `Links.md` (Fine-Tuned Model & Processed Dataset)**
+### **4. Fine-Tuned Model & Processed Dataset**
 This file contains links to:
-- The **fine-tuned model** (trained weights, tokenizer, and inference script).
-- The **processed dataset** used for training, including **input-output formatting details**.
+- The **fine-tuned model**(trained weights, tokenizer, and inference script): [Download Here](https://drive.google.com/drive/folders/1_TqruZSd8g7Kg8KBuPtXv8lkkYtYy6cP?usp=sharing)
+- The **processed dataset**(tokenized and structured dataset for sequence to sequence learning): [Download Here](https://drive.google.com/drive/folders/1WwKinqK4JThx_0bmHS5aoeRybzA065kv?usp=drive_link)
 
 ## **Setup & Installation**
 
