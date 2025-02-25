@@ -1,5 +1,5 @@
 # Automating UI Development with AI-Driven Code Completion
-![Demo](output.gif)
+![Demo](demo.gif)
 
 This repository contains the code, models, and a demo for an AI-driven system designed to automate code completion, test generation, and debugging for UI-based programming languages like Flutter (Dart) and Kotlin.
 
