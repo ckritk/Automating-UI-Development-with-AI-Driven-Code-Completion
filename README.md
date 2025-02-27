@@ -57,7 +57,7 @@ Simply run:
 ```bash Copy Edit
 python app.py
 ```
-The API will be accessible at [http://localhost:3000].
+The API will be accessible at [http://localhost:3000](http://localhost:3000).
 
 ### **6. Run the Frontend Demo**
 Open `index.html` from `UI/` in your browser.
