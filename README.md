@@ -3,7 +3,7 @@
 
 This repository contains the code, models, and a demo for an AI-driven system designed to automate code completion, test generation, and debugging for UI-based programming languages like Flutter (Dart) and Kotlin.
 
-### **1. `flutter- autocompletion.ipynb`**
+### **1. `flutter-autocompletion.ipynb`**
 This Jupyter Notebook contains a basic model trained on a subset of **140k records** from the collected dataset. The model is fine-tuned on **CodeT5-small** for code autocompletion. 
 - The notebook demonstrates **data processing, tokenization, and model fine-tuning** for generating UI-related code snippets.
 - A full-scale model training on **CodeT5-base** using the entire dataset is planned for future iterations.
@@ -50,7 +50,7 @@ To train or fine-tune the model on your dataset:
    ```bash
    jupyter notebook
    ```
-2. Run `Model_Training.ipynb` step by step.
+2. Run `flutter_autocompletion.ipynb` step by step.
 
 ### **5. Start the REST API**
 Simply run:
