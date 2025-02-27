@@ -42,7 +42,7 @@ pip install notebook
 ```
 
 ### **3. Download Pretrained Model (Optional)**
-Instead of training from scratch, you can directly download the **fine-tuned model** from the provided link in `Links.md` and place it in the appropriate directory for immediate use.
+Instead of training from scratch, you can directly download the **fine-tuned model** provided [Here](https://drive.google.com/drive/folders/1_TqruZSd8g7Kg8KBuPtXv8lkkYtYy6cP?) and place it in the appropriate directory for immediate use.
 
 ### **4. Run the Model Training Notebook**
 To train or fine-tune the model on your dataset:
@@ -53,18 +53,14 @@ To train or fine-tune the model on your dataset:
 2. Run `Model_Training.ipynb` step by step.
 
 ### **5. Start the REST API**
-To serve the trained model via REST API:
-```bash
-cd rest_api
-uvicorn main:app --host 0.0.0.0 --port 8000
+Simply run:
+```bash Copy Edit
+python app.py
 ```
-The API will be accessible at `http://localhost:8000`.
+The API will be accessible at [http://localhost:3000].
 
 ### **6. Run the Frontend Demo**
-Navigate to the `UI/` directory and run:
-```bash
-flutter run
-```
+Open `index.html` from `UI/` in your browser.
 This will launch the UI where you can test real-time code generation.
 
 ---
