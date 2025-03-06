@@ -1,4 +1,4 @@
-# Automating UI Development with AI-Driven Code Completion
+# Flutter Code Autocompletion
 ![Demo](demo.gif)
 
 AI-driven system designed to automate code completion, test generation, and debugging for UI-based programming languages like Flutter (Dart) and Kotlin.
