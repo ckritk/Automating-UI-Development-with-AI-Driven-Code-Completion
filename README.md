@@ -1,7 +1,7 @@
 # Automating UI Development with AI-Driven Code Completion
 ![Demo](demo.gif)
 
-This repository contains the code, models, and a demo for an AI-driven system designed to automate code completion, test generation, and debugging for UI-based programming languages like Flutter (Dart) and Kotlin.
+AI-driven system designed to automate code completion, test generation, and debugging for UI-based programming languages like Flutter (Dart) and Kotlin.
 
 ### **1. `flutter-autocompletion.ipynb`**
 This Jupyter Notebook contains a basic model trained on a subset of **140k records** from the collected dataset. The model is fine-tuned on **CodeT5-small** for code autocompletion. 
